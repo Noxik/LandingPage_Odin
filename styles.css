@@ -1,0 +1,158 @@
+body {
+    background-color: #000000;
+    box-sizing: border-box;}
+
+a {text-decoration: none;}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0px 15%
+}
+
+.header, .footer, .middle, .end {
+    padding: 2% 10% 2%;
+    flex: 1;
+ }
+
+ .header, .goo {background-color: #1F2937;}
+ .middle {background-color: #ffffff;}
+ .end {background-color: #E5E7EB;}
+
+.herobanner {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    gap: 10%
+    
+}
+
+.headTextSection {
+    flex-direction: row;
+    flex: 1;
+    padding: 12px 0px
+}
+
+.headerMain {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.imgBack {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a, .headerSecondary, .headerLinkText {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 12px 0px
+}
+
+.headerLogoText {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight:  bold;
+}
+
+button, .callToAction {
+   background-color: #3882F6; 
+}
+
+.callToAction {
+    padding: 2% 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    width: auto;
+    border: 1px  #3882F6 solid;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight:  bold;
+}
+
+#last-btn {
+    border: 1px  #ffffff solid;
+}
+
+.containerSecond {
+    background-color: #ffffff;  
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px
+}
+
+.infoHeader {
+color: #1F2937;
+font-size: 36px;
+font-weight:800;
+text-align: center;
+margin-top: 20px
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 32px 0px
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+width: 150px;
+
+}
+
+.box {
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    border: 4px  #3882F6 solid;
+}
+
+.info {
+    margin-top: 8px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.imgBack {
+    background-color: #E5E7EB;
+}
+
+.quoteText {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    padding: 2% 15%
+}
+
+.authorText {font-size: 24px;
+    font-weight: 700;
+    color: #1F2937;
+    padding: 0px 15%;
+    text-align: right;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {display: flex;
+    list-style-type: none;}
+li {padding: 0 20px; text-decoration: none;}
